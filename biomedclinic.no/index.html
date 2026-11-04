@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>BioMed Clinic – demo</title>
+<style>
+*{box-sizing:border-box}
+:root{--c:#2b5d8a;--ink:#1d2329;--muted:#5b6670;--bg:#ffffff;--soft:#f3f5f7;--line:#dde3e8}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.55;color:var(--ink);background:var(--bg)}
+.demo{background:#fff6d6;color:#5a4500;font-size:14px;padding:8px 16px;text-align:center;border-bottom:1px solid #ecd98f}
+header{background:var(--c);color:#fff;padding:20px 16px 36px}
+.wrap{max-width:920px;margin:0 auto}
+.brand{font-weight:700;font-size:20px;letter-spacing:.2px}
+h1{font-size:30px;line-height:1.2;margin:28px 0 8px}
+.lead{font-size:18px;opacity:.92;margin:0 0 22px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:13px 20px;border-radius:8px;font-weight:600;text-decoration:none;font-size:17px}
+.btn.pri{background:#fff;color:var(--c)}
+.btn.sec{border:2px solid rgba(255,255,255,.7);color:#fff}
+main section{padding:32px 16px;border-bottom:1px solid var(--line)}
+main section:nth-child(even){background:var(--soft)}
+h2{font-size:23px;margin:0 0 14px;color:var(--c)}
+h3{font-size:18px;margin:18px 0 8px}
+p{margin:0 0 12px}
+ul.list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:8px}
+ul.list li{background:#fff;border:1px solid var(--line);border-left:4px solid var(--c);border-radius:6px;padding:10px 12px}
+.people{display:grid;grid-template-columns:1fr;gap:10px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px}
+.card b{display:block}
+.card span{color:var(--muted);font-size:15px}
+.contact dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 16px}
+.contact dt{color:var(--muted)}
+.contact dd{margin:0}
+a{color:var(--c)}
+table.hours{border-collapse:collapse}
+table.hours td{padding:4px 18px 4px 0}
+.note{background:#fff6d6;border:1px solid #ecd98f;border-radius:8px;padding:12px 14px;font-size:15px;color:#5a4500}
+.note ul{margin:6px 0 0;padding-left:18px}
+footer{padding:22px 16px 90px;color:var(--muted);font-size:14px}
+.callbar{position:fixed;left:0;right:0;bottom:0;padding:10px 16px;background:#fff;border-top:1px solid var(--line);display:flex;gap:10px}
+.callbar a{flex:1;text-align:center;background:var(--c);color:#fff;padding:13px;border-radius:8px;font-weight:600;text-decoration:none}
+@media(min-width:700px){h1{font-size:40px}ul.list{grid-template-columns:1fr 1fr}.people{grid-template-columns:1fr 1fr 1fr}.callbar{display:none}footer{padding-bottom:28px}}
+.disclaimer{margin:10px 0 0;font-size:12px;color:var(--muted);opacity:.85}
+</style>
+</head>
+<body>
+<div class="demo">Demo fra Hamidi Partners – et forslag til ny nettside, ikke bedriftens offisielle side. Innholdet er hentet fra biomedclinic.no 2. november 2026.</div>
+<header><div class="wrap">
+<div class="brand">BioMed Clinic</div>
+<h1>Utredning, behandling og oppfølging</h1>
+<p class="lead">BiomedClinic behandler underliggende medisinske utfordringer hos barn på autismespekteret og barn med ADHD og Tourette.</p>
+<div class="btns"><a class="btn pri" href="tel:+4722416402">Ring 22 41 64 02</a><a class="btn sec" href="mailto:post@biomedclinic.no">post@biomedclinic.no</a></div>
+</div></header>
+<main>
+<section id="om"><div class="wrap"><h2>Om oss</h2><p>Pasienter får utredning, behandling og oppfølging av lege og rådgivere. Et team med lege og rådgiver utreder barnets medisinske historikk og helsestatus.</p></div></section>
+<section><div class="wrap"><h2>Vi jobber med barn med</h2><ul class="list"><li>Autisme</li><li>ADHD</li><li>Tourette</li></ul></div></section>
+<section id="kontakt" class="contact"><div class="wrap"><h2>Kontakt</h2><dl><dt>Telefon</dt><dd><a href="tel:+4722416402">22 41 64 02</a></dd><dt>E-post</dt><dd><a href="mailto:post@biomedclinic.no">post@biomedclinic.no</a></dd><dt>Adresse</dt><dd>Øvre Tomtegate 9<br>1651 Sellebakk</dd><dt>Postadresse</dt><dd>P.b. 31 Holmenkollen<br>0712 Oslo</dd></dl></div></section>
+<section><div class="wrap"><div class="note"><b>Merknad til utkastet</b><ul><li>Teksten er kortet ned fra dagens side. Faglige påstander bør gås gjennom av klinikken før publisering.</li><li>Adressen er hentet fra Brønnøysundregistrene. Dagens side oppgir Haakon Den Godes vei 14, 0373 Oslo som besøksadresse. Bekreft riktig adresse før siden går live.</li></ul></div></div></section>
+</main>
+<footer><div class="wrap">BioMed Clinic AS · Øvre Tomtegate 9, 1651 Sellebakk · post@biomedclinic.no · Org.nr. 993 237 817<p class="disclaimer">Utkast laget av Hamidi Partners – ikke bedriftens offisielle side</p></div></footer>
+<div class="callbar"><a href="tel:+4722416402">Ring 22 41 64 02</a></div>
+</body>
+</html>
